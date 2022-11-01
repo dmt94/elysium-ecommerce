@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: 'Lexend Giga', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f3ede5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    color:rgb(126, 96, 81);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}

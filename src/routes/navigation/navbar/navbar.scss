@@ -1,0 +1,126 @@
+.clear-btn-div {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  #clear-btn {
+    width: 20px;
+    border-radius: 100%;
+    &:hover {
+      cursor: pointer;
+      background-color: rgba(249, 204, 186, 0.735);
+    }
+  }
+}
+.flex-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex-r {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-navbar {
+  background-color: rgba(127, 255, 212, 0);
+  margin-bottom: 5px;
+  .top-navbar {
+    margin-top: 3px;
+    .link {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 25px;
+      font-weight: 800;
+      font-size: 13px;
+      color:rgb(55, 54, 52);
+      &:hover {
+        color:rgb(135, 112, 100);
+      }
+  }}
+
+  .title-div {
+    .title {
+      font-family: 'Milonga';
+      font-size: 33px;
+      text-align: center;
+      margin: 20px;
+      color: black;
+      font-weight: 800;
+      letter-spacing: 4px;
+      &:hover {
+        color:rgb(135, 112, 100);
+      }
+    }    
+  }
+
+  .search-div {
+    background-color: rgb(254, 250, 243);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(78, 76, 76, 0.228) 0px 8px 1px 1px;
+    width: 400px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    border: 1px solid rgb(55, 54, 52);
+    display: flex;
+    padding: 3px;
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      transition: all 1s ease-in-out;
+      background-color: rgb(255, 239, 231);
+    }
+    .search-arrow {
+      font-weight: 700;
+      font-size: 12px;
+    }
+    #search-bar {
+      margin-left: 5px;
+      border: none;
+      outline: none;
+      background-color: rgba(254, 250, 243, 0);
+      margin-top: 3px;
+      padding-top: 10px;
+      color: rgb(26, 26, 26);
+      font-size: 13px;
+      font-weight: 500;
+      font-family: 'Lexend', sans-serif;
+    }
+    hr {
+      margin: 0;
+      width: 90%;
+      border: 0.5px solid black;
+      margin-bottom: 5px;
+    }
+  }
+
+  .update-div {
+    justify-content: space-between;
+    width: 400px;
+    .link {
+      font-size: 18px;
+      text-decoration: none;
+      font-weight: 800;
+      margin: 15px;
+      color:rgb(55, 54, 52);
+      &:hover {
+        color: rgb(135, 112, 100);
+        cursor: pointer;
+      }
+    }
+  }
+
+  .nav-link-div {
+    margin-top: 20px;
+    .nav-link {
+      margin-left: 24px;
+      font-size: 12px;
+      font-weight: 700;
+      color:rgb(82, 74, 74);
+      &:hover {
+        color:rgb(168, 143, 135);
+      }
+    }
+  }
+}
+
+
